@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7XPG1GPMXH"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-7XPG1GPMXH');
+	</script>
+	<link rel="icon" href="images/favicon.png">
+	<script src="https://kit.fontawesome.com/abf93cb535.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Jost&family=Prompt:wght@200&family=Space+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>House Plants Types</title>
+</head>
+<body>
+	<a class = "skip" href="#main">Skip to Main Content</a>
+	<header>
+	  <nav class="nav_links">
+		<ol>
+			<li><a href = "index.html">Home Page</a></li>
+			<li><a href = "care.html">Care Tips</a></li>
+			<li><a href = "favorite.html">Favorite</a></li>
+			<li class='active'><a href = "contact.html">Contact</a></li>
+		</ol>
+	</nav>
+
+
+
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="hamburger">
+	<a href="contact.html" class="active">Contact</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+	<a href="index.html">Home Page</a>
+    <a href="care.html">Care Tips</a>
+    <a href="favorite.html">Favorite</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"aria-label = "menu button">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script src="js/video.js"></script>
+
+
+
+	<div class="title" id="contact">
+		<h1 id="main">Contact Us for more info</h1>
+	</div>
+	
+	</header>
+
+	<main>
+		<form action="https://formspree.io/f/xlezpvbp" method="POST">
+  <fieldset>
+    <label for="name_id"><i class="fa-solid fa-user"></i> Your Name</label>
+    <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+
+    <label for="email_id"> <i class="fa-solid fa-at"></i> Your Email</label>
+    <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+
+    <label for="phone_id"><i class="fa-solid fa-phone"></i> Your Phone Number</label>
+    <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    
+
+    <label for="address_id" alt="input address"><i class="fa-solid fa-location-dot"></i> Your Address</label>
+    <input type="address" name="adress" placeholder="City, Country" required>
+
+
+    <label for="msg"><i class="fa-solid fa-comment"></i> Leave A Message</label>
+    <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
+
+    <input type="checkbox" checked="checked" name="remember" id = "cBox"> 
+    <label for ="cBox">Remember me</label>
+
+    <input type="submit" value = "Contact Me">
+  </fieldset>
+ </form>
+	</main>
+	<footer>
+		<p> <i class="fa-solid fa-leaf"></i> Mom's Houseplants &copy; 2022</p>
+	</footer>
+</body>
+</html>
